@@ -3,7 +3,7 @@
 #from bs4 import BeautifulSoup
 import html2text
 #import urllib.request #python 3
-import urllib
+import urllib  # python 2
 
 #=======================
 # 20140130
@@ -12,6 +12,7 @@ import urllib
 # Required html2text 
 #  [AARONSW](http://www.aaronsw.com/2002/html2text/)
 #  [GitHub](https://github.com/aaronsw/html2text)
+# use chr() for python 3 and unichr for python 2
 #=======================
 
 # python3
